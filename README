@@ -1,0 +1,3 @@
+To connect to your AWS cluster
+RUN aws eks update-kubeconfig --name <CLUSTER-NAME> --region <REGION>
+Example: aws eks update-kubeconfig --name myapp-eks-cluster --region us-east-1
